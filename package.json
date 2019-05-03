@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "ABuffSeagull's ESLint Config",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ABuffSeagull/eslint-config.git"
@@ -23,5 +20,13 @@
     "eslint": ">= 5"
   },
   "homepage": "https://github.com/ABuffSeagull/eslint-config#readme",
-  "dependencies": {}
+  "dependencies": {
+    "@getify/eslint-plugin-proper-arrows": "^8.0.1",
+    "@getify/eslint-plugin-proper-ternary": "^3.0.1",
+    "eslint-plugin-es": "^1.4.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-you-dont-need-lodash-underscore": "^6.4.0"
+  }
 }
