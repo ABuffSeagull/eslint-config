@@ -1,30 +1,29 @@
-const isProduction =
-  process.env.NODE_ENV == 'development' ? 'error' : 'warning';
+const isProduction = process.env.node_env == 'development' ? 'error' : 'warn';
 
 module.exports = {
   parserOptions: {
-    sourceType: 'module',
+    sourcetype: 'module',
   },
   env: {
     es6: true,
   },
   extends: ['eslint:recommended'],
   rules: {
-    // Possible Errors
-    'no-async-promise-executer': 'error',
-    'no-await-in-loop': 'warning',
+    // possible errors
+    'no-async-promise-executor': 'error',
+    'no-await-in-loop': 'warn',
     'no-console': isProduction,
     'no-debugger': isProduction,
     'no-empty': ['error', { allowEmptyCatch: true }],
     'no-extra-parens': ['error', 'all', { ignoreJSX: 'multi-line' }],
     'no-inner-declarations': ['error', 'both'],
     'no-misleading-character-class': 'error',
-    'no-template-curly-in-string': 'warning',
+    'no-template-curly-in-string': 'warn',
     'no-unreachable': isProduction,
-    'require-atomic-updates': 'warning',
+    'require-atomic-updates': 'warn',
     'valid-typeof': ['error', { requireStringLiterals: true }],
 
-    // Best Practices
+    // best practices
     'accessor-pairs': 'error',
     'array-callback-return': 'error',
     'consistent-return': ['error', { treatUndefinedAsUnspecified: true }],
@@ -36,7 +35,7 @@ module.exports = {
     'no-caller': 'error',
     'no-div-regex': 'error',
     'no-else-return': ['error', { allowElseIf: false }],
-    'no-empty-function': 'warning',
+    'no-empty-function': 'warn',
     'no-eval': 'error',
     'no-extend-native': 'error',
     'no-extra-bind': 'error',
@@ -56,7 +55,7 @@ module.exports = {
     'no-new-wrappers': 'error',
     'no-octal': 'error',
     'no-octal-escape': 'error',
-    'no-param-reassign': 'warning',
+    'no-param-reassign': 'warn',
     'no-proto': 'error',
     'no-restricted-properties': [
       'error',
@@ -86,13 +85,13 @@ module.exports = {
     'wrap-iife': 'error',
     yoda: 'error',
     'no-label-var': 'error',
-    'no-shadow': 'warning',
+    'no-shadow': 'warn',
     'no-shadow-restricted-names': 'error',
-    'no-undef-init': 'warning',
+    'no-undef-init': 'warn',
     'no-undefined': 'error',
     'no-use-before-define': ['error', 'nofunc'],
 
-    // Node.js & CommonJS
+    // node.js & commonjs
     'callback-return': 'error',
     'global-require': 'error',
     'handle-callback-err': 'error',
@@ -101,6 +100,6 @@ module.exports = {
     'no-new-require': 'error',
     'no-path-concat': 'error',
     'no-process-exit': 'error',
-    'no-sync': 'warning',
+    'no-sync': 'warn',
   },
 };
