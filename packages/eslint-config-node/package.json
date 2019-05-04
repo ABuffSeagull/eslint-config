@@ -33,5 +33,6 @@
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-plugin-node": "^9.0.1"
-  }
+  },
+  "gitHead": "5b75dd98c98d0efccac7f6ac4511af4dec61799e"
 }

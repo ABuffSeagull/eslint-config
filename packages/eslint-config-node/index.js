@@ -1,7 +1,6 @@
+/* eslint-disable import/no-commonjs */
 module.exports = {
-  env: {
-    node: true
-  },
+  env: { node: true },
   extends: ['@abuffseagull/eslint-config-base'],
   plugins: ['node'],
   rules: {
@@ -15,5 +14,5 @@ module.exports = {
     'no-path-concat': 'error',
     'no-process-exit': 'error',
     'no-sync': 'warn',
-  }
-}
+  },
+};
