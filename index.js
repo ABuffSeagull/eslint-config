@@ -3,7 +3,8 @@ const isProduction = process.env.node_env == 'development' ? 'error' : 'warn';
 module.exports = {
   parserOptions: { sourcetype: 'module' },
   env: { es6: true },
-  extends: ['eslint:recommended'],
+  plugins: ['you-dont-need-lodash-underscore'],
+  extends: ['eslint:recommended', 'plugin:you-dont-need-lodash-underscore/compatible'],
   rules: {
     // possible errors
     'no-async-promise-executor': 'error',
