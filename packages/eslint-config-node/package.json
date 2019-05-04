@@ -31,6 +31,7 @@
     "@abuffseagull/eslint-config-base": "^1.0.0"
   },
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^5.16.0",
+    "eslint-plugin-node": "^9.0.1"
   }
 }
