@@ -27,6 +27,10 @@
     "eslint-plugin-import": "^2.17.2",
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-unicorn": "^8.0.2",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
   }
 }
