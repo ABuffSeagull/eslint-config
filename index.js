@@ -1,12 +1,8 @@
 const isProduction = process.env.node_env == 'development' ? 'error' : 'warn';
 
 module.exports = {
-  parserOptions: {
-    sourcetype: 'module',
-  },
-  env: {
-    es6: true,
-  },
+  parserOptions: { sourcetype: 'module' },
+  env: { es6: true },
   extends: ['eslint:recommended'],
   rules: {
     // possible errors
@@ -136,5 +132,39 @@ module.exports = {
     'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     'max-len': ['warn', { code: 120 }],
     'multiline-ternary': ['error', 'always-multiline'],
+    'newline-per-chained-call': 'error',
+    'no-array-constructor': 'error',
+    'no-lonely-if': 'error',
+    'no-mixed-operators': 'error',
+    'no-multi-assign': 'error',
+    'no-plusplus': 'error',
+    'no-trailing-spaces': 'error',
+    'no-unneeded-ternary': 'error',
+    'no-whitespace-before-property': 'error',
+    'nonblock-statement-body-position': 'error',
+    'object-curly-newline': ['error', { multiline: true }],
+    'object-curly-spacing': ['error', 'always'],
+    'operator-assignment': 'error',
+    'operator-linebreak': ['error', 'before'],
+    'padded-blocks': ['error', 'never'],
+    'prefer-object-spread': 'error',
+    'quote-props': ['error', 'as-needed'],
+    quotes: ['error', 'single', { avoidEscape: true }],
+    semi: 'error',
+    'semi-spacing': 'error',
+    'semi-style': 'error',
+    'space-before-blocks': 'error',
+    'space-before-function-paren': ['error', {
+      anonymous: 'never',
+      named: 'always',
+      asyncArrow: 'always',
+    }],
+    'space-in-parens': 'error',
+    'space-infix-ops': 'error',
+    'space-unary-ops': ['error', { words: true, nonwords: false }],
+    'spaced-comment': 'error',
+    'switch-colon-spacing': 'error',
+    'template-tag-spacing': 'error',
+    'unicode-bom': 'error',
   },
 };
