@@ -4,10 +4,11 @@ const isProduction = process.env.NODE_ENV == 'development' ? 'error' : 'warn';
 module.exports = {
   parserOptions: { sourceType: 'module' },
   env: { es6: true },
-  plugins: ['you-dont-need-lodash-underscore', 'import'],
+  plugins: ['you-dont-need-lodash-underscore', 'import', 'promise'],
   extends: [
     'eslint:recommended',
     'plugin:you-dont-need-lodash-underscore/compatible',
+    'plugin:promise/recommended',
   ],
   rules: {
     // possible errors
@@ -208,5 +209,10 @@ module.exports = {
     'import/order': 'error',
     'import/newline-after-import': 'error',
     'import/prefer-default-export': 'error',
+
+    // Promise
+    'promise/no-native': 'error',
+    'promise/prefer-await-to-then': 'error',
+    'promise/prefer-await-to-callbacks': 'error',
   },
 };

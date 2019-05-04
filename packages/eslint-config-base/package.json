@@ -34,5 +34,6 @@
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-unicorn": "^8.0.2",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.4.0"
-  }
+  },
+  "gitHead": "a017e395d800935be4587a40c4e33540c24a39ec"
 }

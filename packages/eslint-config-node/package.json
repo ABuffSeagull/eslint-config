@@ -10,13 +10,6 @@
   "homepage": "https://github.com/ABuffSeagull/eslint-config/tree/master/packages/eslint-config-node#readme",
   "license": "Unlicense",
   "main": "index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ABuffSeagull/eslint-config.git"
@@ -34,5 +27,5 @@
     "eslint": "^5.16.0",
     "eslint-plugin-node": "^9.0.1"
   },
-  "gitHead": "5b75dd98c98d0efccac7f6ac4511af4dec61799e"
+  "gitHead": "a017e395d800935be4587a40c4e33540c24a39ec"
 }
