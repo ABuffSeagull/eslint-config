@@ -1,10 +1,14 @@
-const isProduction = process.env.node_env == 'development' ? 'error' : 'warn';
+/* eslint-disable import/no-commonjs */
+const isProduction = process.env.NODE_ENV == 'development' ? 'error' : 'warn';
 
 module.exports = {
-  parserOptions: { sourcetype: 'module' },
+  parserOptions: { sourceType: 'module' },
   env: { es6: true },
-  plugins: ['you-dont-need-lodash-underscore'],
-  extends: ['eslint:recommended', 'plugin:you-dont-need-lodash-underscore/compatible'],
+  plugins: ['you-dont-need-lodash-underscore', 'import'],
+  extends: [
+    'eslint:recommended',
+    'plugin:you-dont-need-lodash-underscore/compatible',
+  ],
   rules: {
     // possible errors
     'no-async-promise-executor': 'error',
@@ -189,5 +193,31 @@ module.exports = {
     'symbol-description': 'error',
     'template-curly-spacing': 'error',
     'yield-star-spacing': 'error',
+
+    // Import
+    'import/no-unresolved': 'error',
+    'import/named': 'error',
+    'import/default': 'error',
+    'import/namespace': 'error',
+    'import/no-dynamic-require': 'error',
+    'import/no-webpack-loader-syntax': 'error',
+    'import/no-self-import': 'error',
+    'import/no-cycle': 'error',
+    'import/no-useless-path-segments': 'error',
+    'import/export': 'error',
+    'import/no-named-as-default': 'error',
+    'import/no-named-as-default-member': 'error',
+    'import/no-deprecated': 'warn',
+    'import/no-extraneous-dependencies': 'error',
+    'import/no-mutable-exports': 'error',
+    'import/no-commonjs': 'warn',
+    'import/no-amd': 'warn',
+    'import/first': 'error',
+    'import/exports-last': 'warn',
+    'import/no-duplicates': 'error',
+    'import/extensions': ['warn', 'always'],
+    'import/order': 'error',
+    'import/newline-after-import': 'error',
+    'import/prefer-default-export': 'error',
   },
 };
