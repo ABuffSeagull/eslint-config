@@ -4,11 +4,16 @@ const isProduction = process.env.NODE_ENV == 'development' ? 'error' : 'warn';
 module.exports = {
   parserOptions: { sourceType: 'module' },
   env: { es6: true },
-  plugins: ['you-dont-need-lodash-underscore', 'import', 'promise'],
+  plugins: [
+    'you-dont-need-lodash-underscore',
+    'import',
+    '@getify/proper-arrows',
+  ],
   extends: [
     'eslint:recommended',
     'plugin:you-dont-need-lodash-underscore/compatible',
     'plugin:promise/recommended',
+    'plugin:@getify/proper-ternary/getify-says',
   ],
   rules: {
     // possible errors
@@ -214,5 +219,13 @@ module.exports = {
     'promise/no-native': 'error',
     'promise/prefer-await-to-then': 'error',
     'promise/prefer-await-to-callbacks': 'error',
+
+    // Arrow functions
+    '@getify/proper-arrows/params': ['error', { unused: 'trailing' }],
+    '@getify/proper-arrows/where': ['error', { global: true, property: true, export: true }],
+    '@getify/proper-arrows/return': ['error', { chain: false, object: false, sequence: true, ternary: 1 }],
+
+    // Ternary expressions
+    '@getify/proper-ternary/parens': ['error', { comparison: false }],
   },
 };
