@@ -1,0 +1,36 @@
+{
+  "name": "@abuffseagull/eslint-config-node",
+  "version": "1.0.0",
+  "description": "Node specific config for ESLint for ABuffSeagull",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "ABuffSeagull <reecevanatta@gmail.com>",
+  "homepage": "https://github.com/ABuffSeagull/eslint-config/tree/master/packages/eslint-config-node#readme",
+  "license": "Unlicense",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABuffSeagull/eslint-config.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/ABuffSeagull/eslint-config/issues"
+  },
+  "dependencies": {
+    "@abuffseagull/eslint-config-base": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}

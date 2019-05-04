@@ -1,0 +1,38 @@
+{
+  "name": "@abuffseagull/eslint-config-base",
+  "version": "1.0.0",
+  "description": "Base ESLint config for ABuffSeagull",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "ABuffSeagull <reecevanatta@gmail.com>",
+  "homepage": "https://github.com/ABuffSeagull/eslint-config/tree/master/packages/eslint-config-base#readme",
+  "license": "Unlicense",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABuffSeagull/eslint-config.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/ABuffSeagull/eslint-config/issues"
+  },
+  "dependencies": {
+    "@getify/eslint-plugin-proper-arrows": "^8.0.1",
+    "@getify/eslint-plugin-proper-ternary": "^3.0.1",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-unicorn": "^8.0.2",
+    "eslint-plugin-you-dont-need-lodash-underscore": "^6.4.0"
+  }
+}

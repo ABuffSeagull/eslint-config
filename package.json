@@ -20,16 +20,8 @@
     "eslint": ">= 5"
   },
   "homepage": "https://github.com/ABuffSeagull/eslint-config#readme",
-  "dependencies": {
-    "@getify/eslint-plugin-proper-arrows": "^8.0.1",
-    "@getify/eslint-plugin-proper-ternary": "^3.0.1",
-    "eslint-plugin-import": "^2.17.2",
-    "eslint-plugin-node": "^8.0.1",
-    "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-unicorn": "^8.0.2",
-    "eslint-plugin-you-dont-need-lodash-underscore": "^6.4.0"
-  },
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^5.16.0",
+    "lerna": "^3.13.4"
   }
 }
