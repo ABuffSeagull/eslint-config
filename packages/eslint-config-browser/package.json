@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "Unlicense",
   "dependencies": {
-    "@abuffseagull/eslint-config-base": "^2.0.1",
+    "@abuffseagull/eslint-config-base": "*",
     "eslint-plugin-unicorn": "^8.0.2",
     "eslint-plugin-xss": "^0.1.9"
   },

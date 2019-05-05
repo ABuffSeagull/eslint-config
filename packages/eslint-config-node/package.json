@@ -21,7 +21,7 @@
     "url": "https://github.com/ABuffSeagull/eslint-config/issues"
   },
   "dependencies": {
-    "@abuffseagull/eslint-config-base": "^2.0.1",
+    "@abuffseagull/eslint-config-base": "*",
     "eslint-config-unicorn": "^0.5.0",
     "eslint-plugin-node": "^9.0.1"
   },
