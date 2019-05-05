@@ -22,11 +22,14 @@
   "homepage": "https://github.com/ABuffSeagull/eslint-config#readme",
   "devDependencies": {
     "eslint": "^5.16.0",
+    "eslint-formatter-kakoune": "^1.0.0",
     "lerna": "^3.13.4"
   },
   "scripts": {
-  	"lint": "eslint --ext js packages/"
-	},
+    "lint": "eslint --ext js packages/"
+  },
   "private": true,
-  "workspaces": ["packages/*"]
+  "workspaces": [
+    "packages/*"
+  ]
 }

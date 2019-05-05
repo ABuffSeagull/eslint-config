@@ -23,11 +23,6 @@
   resolved "https://registry.yarnpkg.com/@getify/eslint-plugin-proper-arrows/-/eslint-plugin-proper-arrows-8.0.1.tgz#478ebf109d792f634a3449684328520161989366"
   integrity sha512-S8VIdlc321iexhGa8BX55jHdlvJwW/9hTZawxidXoi8tecpi6k5tpOcExv3xXMPFuWrRu+hrS03mVRxkxHNeyw==
 
-"@getify/eslint-plugin-proper-ternary@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@getify/eslint-plugin-proper-ternary/-/eslint-plugin-proper-ternary-3.0.1.tgz#4729443416004f5fd3a5241f860c01323ce597a2"
-  integrity sha512-/71MVVsLhHVYs59h0az6tZlUWWzLeKNnDGML0CCvoQ4hx37sMdSL82A3+QzJIFj3gRylvGhszn5k82E+mM6HSg==
-
 "@lerna/add@3.13.3":
   version "3.13.3"
   resolved "https://registry.yarnpkg.com/@lerna/add/-/add-3.13.3.tgz#f4c1674839780e458f0426d4f7b6d0a77b9a2ae9"
@@ -1716,6 +1711,11 @@ eslint-config-unicorn@^0.5.0:
   integrity sha1-1hOSlaCdTESi0G7RH+vnDwLdiSI=
   dependencies:
     eslint-restricted-globals "^0.1.1"
+
+eslint-formatter-kakoune@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-formatter-kakoune/-/eslint-formatter-kakoune-1.0.0.tgz#a95cc4fe1fbc06b84e0f2397e83f5f0b68340125"
+  integrity sha1-qVzE/h+8BrhODyOX6D9fC2g0ASU=
 
 eslint-import-resolver-node@^0.3.2:
   version "0.3.2"
