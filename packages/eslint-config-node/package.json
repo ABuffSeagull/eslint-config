@@ -1,6 +1,6 @@
 {
   "name": "@abuffseagull/eslint-config-node",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Node specific config for ESLint for ABuffSeagull",
   "keywords": [
     "eslint",
@@ -21,7 +21,7 @@
     "url": "https://github.com/ABuffSeagull/eslint-config/issues"
   },
   "dependencies": {
-    "@abuffseagull/eslint-config-base": "^1.0.2",
+    "@abuffseagull/eslint-config-base": "^2.0.0",
     "eslint-config-unicorn": "^0.5.0"
   },
   "devDependencies": {
