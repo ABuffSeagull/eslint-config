@@ -4,6 +4,8 @@ module.exports = {
   extends: ['@abuffseagull/eslint-config-base', 'plugin:node/recommended'],
   plugins: ['node', 'unicorn'],
   rules: {
+    'no-console': 'off',
+
     // node.js & commonjs
     'callback-return': 'error',
     'global-require': 'error',

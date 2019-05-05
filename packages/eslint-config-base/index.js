@@ -209,7 +209,6 @@ module.exports = {
     'import/prefer-default-export': 'error',
 
     // Promise
-    'promise/no-native': 'error',
     'promise/prefer-await-to-then': 'error',
     'promise/prefer-await-to-callbacks': 'error',
 
