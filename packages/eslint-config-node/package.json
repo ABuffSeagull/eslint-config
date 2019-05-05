@@ -26,8 +26,7 @@
     "eslint-plugin-node": "^9.0.1"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-plugin-node": "^9.0.1"
+    "eslint": "^5.16.0"
   },
   "gitHead": "acabb22e0218f0102023875667d6ccaf0b89f853"
 }
