@@ -1,11 +1,11 @@
 {
   "name": "@abuffseagull/eslint-config-browser",
-  "version": "4.0.0",
+  "version": "4.0.2",
   "description": "Browser config for ESLint for ABuffSeagull",
   "main": "index.js",
   "license": "Unlicense",
   "dependencies": {
-    "@abuffseagull/eslint-config-base": "^4.0.0",
+    "@abuffseagull/eslint-config-base": "^4.0.2",
     "eslint-plugin-unicorn": "^8.0.2",
     "eslint-plugin-xss": "^0.1.9"
   },
