@@ -2,7 +2,6 @@
 const isProduction = process.env.NODE_ENV == 'development' ? 'error' : 'warn';
 
 module.exports = {
-  parserOptions: { sourceType: 'module' },
   env: { es6: true },
   plugins: [
     'you-dont-need-lodash-underscore',
@@ -206,12 +205,9 @@ module.exports = {
     'import/no-deprecated': 'warn',
     'import/no-extraneous-dependencies': 'error',
     'import/no-mutable-exports': 'error',
-    'import/no-commonjs': 'warn',
-    'import/no-amd': 'warn',
     'import/first': 'error',
-    'import/exports-last': 'warn',
     'import/no-duplicates': 'error',
-    'import/extensions': ['warn', 'always'],
+    'import/extensions': ['warn', 'ignorePackages'],
     'import/order': 'error',
     'import/newline-after-import': 'error',
     'import/prefer-default-export': 'error',

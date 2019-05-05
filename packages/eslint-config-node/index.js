@@ -14,6 +14,9 @@ module.exports = {
     'no-path-concat': 'error',
     'no-sync': 'warn',
 
+    // node
+    'node/no-unsupported-features/es-syntax': ['error', { ignores: ['modules'] }],
+
     // node plugin
     'node/exports-style': ['error', 'module.exports'],
     'node/file-extension-in-import': 'error',
