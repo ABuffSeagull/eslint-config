@@ -13,13 +13,11 @@ module.exports = {
     'eslint:recommended',
     'plugin:you-dont-need-lodash-underscore/compatible',
     'plugin:promise/recommended',
-    'plugin:@getify/proper-ternary/getify-says',
   ],
   rules: {
     // possible errors
     'no-async-promise-executor': 'error',
     'no-await-in-loop': 'warn',
-    'no-console': isProduction,
     'no-debugger': isProduction,
     'no-empty': ['error', { allowEmptyCatch: true }],
     'no-extra-parens': ['error', 'all', { ignoreJSX: 'multi-line' }],
@@ -54,7 +52,7 @@ module.exports = {
     'no-iterator': 'error',
     'no-labels': ['error', { allowLoop: true }],
     'no-loop-func': 'error',
-    'no-magic-numbers': ['error', { enforceConst: true }],
+    'no-magic-numbers': ['error', { enforceConst: true, ignore: [0, 1, 2] }],
     'no-multi-spaces': 'error',
     'no-multi-str': 'error',
     'no-new': 'error',
@@ -115,11 +113,9 @@ module.exports = {
     'eol-last': 'error',
     'func-call-spacing': 'error',
     'func-name-matching': 'error',
-    'func-names': ['error', 'as-needed', { generators: 'as-needed' }],
     'func-style': ['error', 'declaration', { allowArrowFunctions: false }],
     'function-paren-newline': ['error', 'multiline'],
     'implicit-arrow-linebreak': ['error', 'beside'],
-    // eslint-disable-next-line no-magic-numbers
     indent: ['error', 2, {
       SwitchCase: 1,
       VariableDeclarator: 'first',
@@ -155,8 +151,8 @@ module.exports = {
     'semi-style': 'error',
     'space-before-blocks': 'error',
     'space-before-function-paren': ['error', {
-      anonymous: 'never',
-      named: 'always',
+      anonymous: 'always',
+      named: 'never',
       asyncArrow: 'always',
     }],
     'space-in-parens': 'error',
@@ -221,9 +217,6 @@ module.exports = {
     '@getify/proper-arrows/params': ['error', { unused: 'trailing' }],
     '@getify/proper-arrows/where': ['error', { global: true, property: true, export: true }],
     '@getify/proper-arrows/return': ['error', { chain: false, object: false, sequence: true, ternary: 1 }],
-
-    // Ternary expressions
-    '@getify/proper-ternary/parens': ['error', { comparison: false }],
 
     // Unicorn
     'unicorn/catch-error-name': 'error',
