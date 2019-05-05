@@ -6,6 +6,7 @@
   "license": "Unlicense",
   "dependencies": {
     "@abuffseagull/eslint-config-base": "*",
-    "eslint-plugin-unicorn": "^8.0.2"
+    "eslint-plugin-unicorn": "^8.0.2",
+    "eslint-plugin-xss": "^0.1.9"
   }
 }
