@@ -8,6 +8,7 @@ module.exports = {
     'you-dont-need-lodash-underscore',
     'import',
     '@getify/proper-arrows',
+    'unicorn',
   ],
   extends: [
     'eslint:recommended',
@@ -179,7 +180,7 @@ module.exports = {
     'no-var': 'warn',
     'object-shorthand': 'error',
     'prefer-const': 'error',
-    'prefer-destructuring': ['error', { array: true, object: true }],
+    'prefer-destructuring': ['error', { array: false, object: true }],
     'prefer-numeric-literals': 'error',
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
@@ -227,5 +228,31 @@ module.exports = {
 
     // Ternary expressions
     '@getify/proper-ternary/parens': ['error', { comparison: false }],
+
+    // Unicorn
+    'unicorn/catch-error-name': 'error',
+    'unicorn/custom-error-definition': 'error',
+    'unicorn/error-message': 'error',
+    'unicorn/escape-case': 'error',
+    'unicorn/new-for-builtins': 'error',
+    'unicorn/no-abusive-eslint-disable': 'error',
+    'unicorn/no-array-instanceof': 'error',
+    'unicorn/no-console-spaces': 'error',
+    'unicorn/no-for-loop': 'error',
+    'unicorn/no-hex-escape': 'error',
+    'unicorn/no-new-buffer': 'error',
+    'unicorn/no-unreadable-array-destructuring': 'error',
+    'unicorn/no-unsafe-regex': 'error',
+    'unicorn/no-unused-properties': 'error',
+    'unicorn/no-zero-fractions': 'error',
+    'unicorn/number-literal-case': 'error',
+    'unicorn/prefer-add-event-listener': 'error',
+    'unicorn/prefer-exponentiation-operator': 'error',
+    'unicorn/prefer-includes': 'error',
+    'unicorn/prefer-spread': 'error',
+    'unicorn/prefer-starts-ends-with': 'error',
+    'unicorn/prefer-type-error': 'error',
+    'unicorn/regex-shorthand': 'error',
+    'unicorn/throw-new-error': 'error',
   },
 };

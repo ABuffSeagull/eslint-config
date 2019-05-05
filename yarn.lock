@@ -1710,6 +1710,13 @@ eslint-ast-utils@^1.0.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
+eslint-config-unicorn@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-unicorn/-/eslint-config-unicorn-0.5.0.tgz#d6139295a09d4c44a2d06ed11febe70f02dd8922"
+  integrity sha1-1hOSlaCdTESi0G7RH+vnDwLdiSI=
+  dependencies:
+    eslint-restricted-globals "^0.1.1"
+
 eslint-import-resolver-node@^0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.2.tgz#58f15fb839b8d0576ca980413476aab2472db66a"
@@ -1791,6 +1798,11 @@ eslint-plugin-you-dont-need-lodash-underscore@^6.4.0:
   integrity sha512-uAcJ0MHaDc6CFccffwQeKB72oax9lIGSxNGOX6piBJOHaO3V7L3PAUzn4rTGR1L+Xe9AQ70vNzMUCfXH7hhRqw==
   dependencies:
     kebab-case "^1.0.0"
+
+eslint-restricted-globals@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/eslint-restricted-globals/-/eslint-restricted-globals-0.1.1.tgz#35f0d5cbc64c2e3ed62e93b4b1a7af05ba7ed4d7"
+  integrity sha1-NfDVy8ZMLj7WLpO0saevBbp+1Nc=
 
 eslint-scope@^4.0.3:
   version "4.0.3"
