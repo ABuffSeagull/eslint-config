@@ -22,10 +22,10 @@
   },
   "dependencies": {
     "@getify/eslint-plugin-proper-arrows": "^8.0.1",
-    "eslint-plugin-import": "^2.17.2",
-    "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-unicorn": "^8.0.2",
-    "eslint-plugin-you-dont-need-lodash-underscore": "^6.4.0"
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-unicorn": "^10.0.0",
+    "eslint-plugin-you-dont-need-lodash-underscore": "^6.7.0"
   },
-  "gitHead": "acabb22e0218f0102023875667d6ccaf0b89f853"
+  "gitHead": "efee5a6ea2e81fc8cd7d6cfaefce325e8649cfce"
 }
