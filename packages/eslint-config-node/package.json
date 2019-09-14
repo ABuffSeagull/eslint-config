@@ -23,10 +23,10 @@
   "dependencies": {
     "@abuffseagull/eslint-config-base": "^4.0.2",
     "eslint-config-unicorn": "^0.5.0",
-    "eslint-plugin-node": "^9.0.1"
+    "eslint-plugin-node": "^10.0.0"
   },
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^6.4.0"
   },
-  "gitHead": "acabb22e0218f0102023875667d6ccaf0b89f853"
+  "gitHead": "efee5a6ea2e81fc8cd7d6cfaefce325e8649cfce"
 }
